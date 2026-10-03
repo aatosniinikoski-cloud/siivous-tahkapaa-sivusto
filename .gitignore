@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+logs/
+*-preview.png
+AGENTS.md
+sources/
+.DS_Store
+Thumbs.db
