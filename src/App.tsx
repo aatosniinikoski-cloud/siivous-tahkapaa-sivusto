@@ -37,7 +37,7 @@ const reviews = [
 ];
 
 function LeafMark() {
-  return <img className="brand-mark" src="/assets/cleaning-character.svg" alt="" width="80" height="59" aria-hidden="true" />;
+  return <img className="brand-mark" src={`${import.meta.env.BASE_URL}assets/cleaning-character.svg`} alt="" width="80" height="59" aria-hidden="true" />;
 }
 
 function Logo() {
@@ -111,7 +111,7 @@ function Hero() {
         <div className="trust-row"><span><MapPin/>Paikallinen yritys</span><span><CalendarDays/>Joustavat ajat</span><span><ShieldCheck/>Luotettava palvelu</span><span><Send/>Nopea vastaus</span></div>
       </div>
       <div className="hero-visual">
-        <img src="/assets/hero-cleaner.png" alt="Ammattisiivooja valoisassa pohjoismaisessa kodissa" />
+        <img src={`${import.meta.env.BASE_URL}assets/hero-cleaner.png`} alt="Ammattisiivooja valoisassa pohjoismaisessa kodissa" />
         <span className="script-note hero-note">Puhtaampia<br/>hetkiä arkeen ♡</span>
       </div>
     </div>
