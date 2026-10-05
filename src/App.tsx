@@ -48,7 +48,7 @@ function Logo() {
 }
 
 function WhatsAppLink({ children, className = '' }: { children: React.ReactNode; className?: string }) {
-  return <a className={className} href="https://wa.me/35845312782" target="_blank" rel="noreferrer">
+  return <a className={className} href="https://wa.me/358456312782" target="_blank" rel="noreferrer">
     <MessageCircle size={19}/>{children}
   </a>;
 }
@@ -187,7 +187,7 @@ function ContactBand() {
 
 function Footer() {
   return <><section className="final-cta"><div className="container"><div><h2>Tarvitsetko luotettavan siivouskumppanin?</h2><p>Pyydä maksuton tarjous jo tänään – saat vastauksen nopeasti.</p></div><a className="button" href="#tarjous">Pyydä maksuton tarjous <ArrowRight size={17}/></a></div></section>
-  <footer><div className="container footer-grid"><Logo/><div><strong>Pikalinkit</strong><a href="#palvelut">Palvelut</a><a href="#meista">Tietoa meistä</a><a href="#prosessi">Usein kysytyt</a><a href="#yhteys">Yhteystiedot</a></div><div><strong>Yhteystiedot</strong><a href="tel:+35845312782">☎ 045 631 2782</a><a href="https://wa.me/35845312782">◉ Avaa WhatsApp</a><a href="mailto:info@siivoustahkapaa.fi">✉ info@siivoustahkapaa.fi</a><span>● Turku, Lieto ja lähialueet</span></div><div className="footer-promise"><LeafMark/><p>Paikallista siivouspalvelua<br/>jo vuodesta 2010.</p></div></div><div className="container footer-bottom"><span>© 2026 Siivous Tähkäpää. Kaikki oikeudet pidätetään.</span><span>Tietosuoja　 Esteet　 Verkkosivut: paikallinen kumppani</span></div></footer></>;
+  <footer><div className="container footer-grid"><Logo/><div><strong>Pikalinkit</strong><a href="#palvelut">Palvelut</a><a href="#meista">Tietoa meistä</a><a href="#prosessi">Usein kysytyt</a><a href="#yhteys">Yhteystiedot</a></div><div><strong>Yhteystiedot</strong><a href="tel:+35845312782">☎ 045 631 2782</a><a href="https://wa.me/358456312782">◉ Avaa WhatsApp</a><a href="mailto:info@siivoustahkapaa.fi">✉ info@siivoustahkapaa.fi</a><span>● Turku, Lieto ja lähialueet</span></div><div className="footer-promise"><LeafMark/><p>Paikallista siivouspalvelua<br/>jo vuodesta 2010.</p></div></div><div className="container footer-bottom"><span>© 2026 Siivous Tähkäpää. Kaikki oikeudet pidätetään.</span><span>Tietosuoja　 Esteet　 Verkkosivut: paikallinen kumppani</span></div></footer></>;
 }
 
 export default function App() {
