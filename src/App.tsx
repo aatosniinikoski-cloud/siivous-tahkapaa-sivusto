@@ -111,7 +111,7 @@ function Hero() {
         <div className="trust-row"><span><MapPin/>Paikallinen yritys</span><span><CalendarDays/>Joustavat ajat</span><span><ShieldCheck/>Luotettava palvelu</span><span><Send/>Nopea vastaus</span></div>
       </div>
       <div className="hero-visual">
-        <img src={`${import.meta.env.BASE_URL}assets/hero-cleaner.png`} alt="Ammattisiivooja valoisassa pohjoismaisessa kodissa" />
+        <img src={`${import.meta.env.BASE_URL}assets/hero-cleaner.webp`} alt="Ammattisiivooja valoisassa pohjoismaisessa kodissa" />
         <span className="script-note hero-note">Puhtaampia<br/>hetkiä arkeen ♡</span>
       </div>
     </div>
